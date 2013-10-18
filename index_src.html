@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SLG</title>
+    <meta charset="utf-8">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-----------------添加外部库------------------->
+    <script src="lib/puremvc.js"></script>
+    <script src="lib/easeljs-0.7.0.min.js"></script>
+    <script src="lib/Raf.js"></script>
+    <script src="lib/Animate.js"></script>
+    <script src="lib/Scroller.js"></script>
+    <!-----------------添加自定义库------------------>
+    <script src="ext/data/Http.js"></script>
+    <script src="ext/utils/ClassUtils.js"></script>
+    <script src="ext/utils/EventDispatcher.js"></script>
+    <script src="ext/utils/Loader.js"></script>
+    <script src="ext/utils/CreateText.js"></script>
+    <!-----------------添加语言库-------------------->
+    <script src="src/zh_cn.js"></script>
+    <!-----------------添加配置类------------------->
+    <script src="src/App.js"></script>
+    <script src="src/Global.js"></script>
+    <!-----------------GameFacade------------------->
+    <script src="src/GameFacade.js"></script>
+    <!------------------MVC-------------------------->
+    <!-----------------Command----------------------->
+    <script src="src/command/CommandType.js"></script>
+    <script src="src/command/AsyncCommand.js"></script>
+    <script src="src/command/AsyncMacroCommand.js"></script>
+    <script src="src/command/StartUpCommand.js"></script>
+    <script src="src/command/PrepControllerCommand.js"></script>
+    <script src="src/command/PrepModelCommand.js"></script>
+    <script src="src/command/PrepViewCommand.js"></script>
+    <script src="src/command/InitCommand.js"></script>
+    <script src="src/command/ViewPorterCommand.js"></script>
+    <script src="src/command/LoadDataBaseCommand.js"></script>
+    <script>
+        //是否调用x-canvas引擎
+        var isXc=false;
+        //是否为开发模式
+        var devModel=true;
+        //客户端版本
+        var version="1.0.1";
+        var DEBUG_URL="data/";
+        //客户端的建立的proxy，用于调试
+        //var DEBUG_URL = "/service/slg/";
+        window.onload=function(){
+            //玩家所在服务器编号
+            app.GameData.serverId =1;
+            //玩家uid
+            app.GameData.uid=1;
+            app.GameFacade.getInstance(app.GameFacade.NAME).startup();
+        }
+    </script>
+
+</head>
+
+<body>
+<div id="viewporter"></div>
+</body>
+</html>
