@@ -1,0 +1,31 @@
+<div id="container" class="popupBox">
+    <div class="popup_bar" style="position: relative;">
+        <div id="dlg_title" style="float:left; background:url(images/ui/dlg_title.png) no-repeat; width:232px; height:29px; text-align:center; line-height:29px; margin-top:4px; margin-left:124px">
+        </div>
+        <div id="dlg_close" class="tab_close" style="position: absolute;width: 50px;height: 50px;left: 430px;">
+            <img src="images/ui/tab_close.png" style="float: right;" />
+        </div>
+    </div>
+    <div class="popup_content">
+        <div style="float:left; margin-left:5px; width:180px; height:200px; text-align:center">
+            <canvas id="building_img" width="170" height="100">
+            </canvas>
+            <div id="levelup_prop" style="text-align:left; margin-left:25px; line-height:180%; margin-top:10px">
+			    花费银币：
+                <span id="needMoney"></span>
+                <br/>
+                所需时间：
+                <span id="needTime" class="fc6">00:00:00</span>
+            </div>
+            <input id="levelup_btn" style="margin-top:10px" class="btn_blue" type="button" value="升级" />
+        </div>
+        <div style="width:255px;float:right;">
+            <div class="content_box" style="margin-top:5px; ">
+                <div id="dlg_description" class="content" style="height:180px;">
+                    <p id="build_title" class="fc1"></p>
+                    <p id="build_info"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

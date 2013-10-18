@@ -1,0 +1,39 @@
+<style>
+    #task_mainList>div{width:107px;height:31px;line-height:31px;margin-bottom:3px;text-align:center;background-position:left top;background-repeat:no-repeat;position:relative;left:0;top:0}
+    .rwCHo_Over{background-image:url(images/ui/popupbg_12.gif)}
+    .rwCHo_Out{background-image:url(images/ui/popupbg_13.gif)}
+    .jl_ico_on{width:26px;height:24px;margin-left:21px;background:url(images/ui/icon_wan.gif);visibility:visible;position:absolute;left:60px;top:2px}
+    .jl_ico_out{width:26px;height:24px;margin-left:21px;background:url(images/ui/icon_wan.gif);visibility:hidden;position:absolute;left:60px;top:2px}
+</style>
+<div style="width:304px; height:207px; margin-left:4px; float:left;">
+    <div style="width:302px; height:130px;" class="content_box">
+        <div style="width:290px; height:122px;" class="content">
+            <p>任务名称：<span class="fc4" id="taskmain_name"></span></p>
+            <p>&nbsp;</p>
+            <p>任务内容：<span id="taskmain_con"></span></p>
+        </div>
+    </div>
+    <div style="width:302px; height:71px; margin-top:4px;" class="content_box">
+        <div style="width:290px; height:63px;" class="content">
+            <p>任务奖励：<span id="taskmain_reward"></span></p>
+            <input id="taskMainGetBtn" type="button" class="btn" value="领取奖励" style="margin-left:220px; margin-top:10px;" />
+        </div>
+    </div>
+</div>
+<div style="width:128px; height:205px; margin-left:8px; float:left;" class="content_box">
+    <div style="width:116px; height:197px;" class="content">
+        <div style="width:107px; height:190px;float:left;overflow:hidden;">
+            <p style="text-align:center; font-weight:bold; margin-bottom:3px;" class="fc14">任务列表</p>
+            <div style="width:107px; height:190px;float:left;overflow:hidden;">
+                <div id="task_mainList"></div>
+            </div>
+        </div>
+        <div style="width:9px; height:195px; float:left; background: url(images/ui/bar_04.png) repeat-y;">
+            <div style="height:5px; background:url(images/ui/bar_02.png) no-repeat;"></div>
+            <div style="height:185px;overflow:hidden;position:relative;">
+                <img style="position:absolute" id="p_tasklist" src="images/ui/bar_01.png" />
+            </div>
+            <div style="height:5px; background:url(images/ui/bar_03.png) no-repeat;"></div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,17 @@
+<div id="container" style="background:url(images/ui/popupbg_01.gif) left top no-repeat; width:395px; height:254px;">
+    <div style="width:395px; height:33px;">
+        <div id="dlg_title" class="fc14" style="float:left; font-weight:bold; width:335px; height:15px; margin-top:18px; text-align:center; margin-left:30px">
+            获得礼包
+        </div>
+        <!--<div class="tab_close_bar">-->
+        <div id="showGift_close" class="tab_close" style="float:right">
+            <img src="images/ui/tab_close.png" />
+        </div>
+        <!--</div>-->
+    </div>
+    <div style="width:370px; height:180px; margin:10px auto; text-align:center;" class="content_box fc5">
+        <div style="width:358px; height:172px;" class="content">
+            <div id="giftListDiv" style="width:360px; height:47px; margin:40px auto; margin-bottom:20px;"></div>
+        </div>
+    </div>
+</div>

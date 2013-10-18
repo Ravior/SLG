@@ -1,0 +1,177 @@
+<div class="popupBox">
+    <div class="popup_bar">
+        <div class="tab_title">帮助</div>
+        <div id="help_close" class="tab_close" style=" background:url(images/ui/tab_close.png) left bottom no-repeat; width: 32px;height: 32px; margin: 2px 0px 0px 284px;">
+        </div>
+    </div>
+    <div class="popup_content" style="color: #eaca67;">
+        <div style="height:202px;">
+            <div style="width:116px; height:200px; float:left;" class="content_box">
+                <div style="width:104px; height:192px;" class="content">
+                    <div style="width:95px; height:192px; overflow:hidden; float:left;">
+                        <div id="help_scroll1">
+                        <ul>
+                            <li>1.世界城市</li>
+                            <li>2.地区城市</li>
+                            <li>3.地区资源</li>
+                            <li>4.主城</li>
+                            <li>5.校场</li>
+                            <li>6.武将</li>
+                            <li>7.策略府</li>
+                            <li>8.世界军团</li>
+                            <li>9.主线任务</li>
+                            <li>10.成就</li>
+                            <li>11.活动</li>
+                            <li>12.邮件</li>
+                            <li>13.征战副本</li>
+                            <li>14.副本军团</li>
+                        </ul>
+                        </div>
+                    </div>
+                    <div style="width:9px; height:192px; float:left;">
+                        <div style="width:9px; height:5px; background:url(images/ui/bar_02.png) left top no-repeat"></div>
+                        <div style="width:9px; height:182px; background:url(images/ui/bar_04.png) left top repeat-y"><img src="images/ui/bar_01.png"  id="help_moveBtn1" width="9" height="26" /></div>
+                        <div style="width:9px; height:5px; background:url(images/ui/bar_03.png) left bottom no-repeat"></div>
+                    </div>
+                </div>
+            </div>
+            <div style="width:326px; height:200px; margin-left:4px; float:left;" class="content_box">
+                <div style="width:314px; height:192px;" class="content">
+                    <div style="width:305px; height:192px; overflow: hidden; float:left;">
+                        <ul>
+                            <li style="display:none;">
+                                <p><b>1.世界城市</b></p>
+                                <p>★城市特色分为：普通、政治、军事、贸易、良田、富矿、商都、文化。</p>
+                                <p>★"开发值" 高低关系着征收的银两收入</p>
+                            </li>
+                            <li style="display:none;">
+                                <p><b>2.地区城市</b></p>
+                                <p>★每次攻击并战胜敌方国家城池的玩家对该国家积累1点武力值。被打败1次降低1点武力值。</p>
+                                <p>&nbsp;</p>
+                                <p>★不属于同一等级阶段的玩家不可以相互攻击。例如40级区域玩家无法攻击20区域玩家。</p>
+                                <p>&nbsp;</p>
+                                <p>★武力值与战败保护时间关系如下：</p>
+                                <p>&nbsp;</p>
+                                <p>惨不忍睹：攻击为-51一下。保护时间4小时。<br>弱不经风：武力值-1以下。保护时间2小时。<br>普　　通：武力值1-10点。保护时间1小时。<br>面目狰狞：武力值11-20点。保护时间50分钟。<br>凶神恶煞：武力值21-35点。保护时间40分钟。<br>穷凶极恶：武力值36-50点。保护时间40分钟。<br>罪大恶极：武力值41-70点。保护时间20分钟。<br>十恶不赦：武力值71-100点。保护时间12分钟。<br>天理难容：武力值100点以上。保护时间8分钟。
+                                </p>
+                            </li>
+                            <li style="display:none;">
+                                <p><b>3.地区资源</b></p>
+                                <p>★地区资源需要打败地方势力才能占领。不同等级的城市，地区资源产量不同。</p>
+                                <p>★升级军团科技可以提升地区资源的占领时间以及资源产量。</p>
+                                <p></p>
+                                <p>★抢夺别人资源会损失兵力，冬季不可以抢占别人的资源。</p>
+                            </li>
+                            <li style="display:none;">
+                                <p><b>4.主城</b></p>
+                                <p>★主城等级上限决定城市内所有建筑的等级上限。</p>
+                                <p>★主城的等级上限决定着武将的等级上限。</p>
+                                <p>★主城的等级上限决定着装备的等级上限。</p>
+                                <p>&nbsp;</p>
+                                <p><b>4.1征收</b></p>
+                                <p>★征收银币受到主城、民心、开发值等因数影响。</p>
+                                <p>★VIP等级越高“强征”的次数越多。</p>
+                                <p>★征收有几率获得金币，铸币科技的等级越高，征收获得金币的几率越大。</p>
+                                <p>&nbsp;</p>
+                                <p><b>4.2市场</b></p>
+                                <p>★市场升级后会刷新重置市场当日交易量。</p>
+                                <p>&nbsp;</p>
+                                <p><b>4.3作坊</b></p>
+                                <p>★有商社后，可以将作坊内生产的商品卖到市价更高的城市，这是赚钱的捷径。</p>
+                            </li>
+                            <li style="display:none;">
+                                <p><b>5.校场</b></p>
+                                <p>★校场的等级上限决定着所有武将训练速度以及突飞获得的经验。</p>
+                                <p>&nbsp;</p>
+                                <p><b>5.1训练</b></p>
+                                <p>★VIP等级越高，所能开放的训练方式越多。</p>
+                                <p>★“突飞”是快速提高武将等级的捷径，花费的战功与校场等级成正比。</p>
+                                <p>&nbsp;</p>
+                                <p><b>5.2招募</b></p>
+                                <p>★征战中打败地方武将有一部分进入到在野武将列表内。</p>
+                                <p>★酒馆历来是高手云集的地方，可以通过会谈招募到各种武将，前提是你战胜过他。</p>
+                                <p>★提升威望官职后获得的武将也会出现在这里。</p>
+                            </li>
+                            <li style="display:none;">
+                                <p><b>6.武将</b></p>
+                                <p>★武将达到一定等级转职后可以携带更高级的兵种。</p>
+                                <p>★对兵种不满意，武将转职后可以重修兵种，随机获得其他类型的高级兵种。</p>
+                                <p>★武将转生将会获得属性成长，选择高成长的武将进行转生是不错的选择。</p>
+                                <p>&nbsp;</p>
+                                <p><b>6.2装备</b></p>
+                                <p>★装备的品质有所不同，成长点也会不同。</p>
+                                <p>&nbsp;</p>
+                                <p><b>6.3布阵</b></p>
+                                <p>★阵型科技的等级越高，发挥出来的威力越大，开发的上阵位也越多。</p>
+                                <p>★配置适合的阵型，迎敌时具有扭转乾坤的作用。</p>
+                                <p>&nbsp;</p>
+                                <p><b>6.4背包</b></p>
+                                <p>★仓库位置满时，获得的物品将以临时物品的形式存放，3天后将会消失，请及时领取。</p>
+                                <p>★银币达到银库容纳上限时，无法卖出仓库内的物品。</p>
+                                <p>&nbsp;</p>
+                                <p><b>6.5强化</b></p>
+                                <p>★强化成功率每半小时变化一次随机值，请注意把握时机。</p>
+                                <p>★降级会返还80%的银币。银币达到银库上限时，将不能降级。</p>
+                                <p>★强化后的装备，不能直接出售，需要降级到未强化状态方能出售。</p>
+                            </li>
+                            <li style="display:none;">
+                                <p><b>7.策略府</b></p>
+                                <p>★科技等级的提升对作战部队有直接的影响。</p>
+                                <p>★商业科技等级的提升对资源的获得有直接影响。</p>
+                            </li>
+                            <li style="display:none;">
+                                <p><b>8.世界军团</b></p>
+                                <p>★主城等级达到10级可以加入军团。</p>
+                                <p>★可以在世界军团列表内选择属于本国的军团加入。</p>
+                                <p>&nbsp;</p>
+                                <p><b>8.1军团信息</b></p>
+                                <p>★军团长与副军团长具有编辑宣言的权利。</p>
+                                <p>★军团长可以将职位转让给军团的其他成员。</p>
+                                <p>★军团长，副军团长具有开除成员的权利。</p>
+                                <p>&nbsp;</p>
+                                <p><b>8.2军团科技</b></p>
+                                <p>★选择默认科技，则成员征收捐献的银币均用来升级该科技。</p>
+                            </li>
+                            <li style="display:none;">
+                                <p><b>9.主线任务</b></p>
+                                <p>★必须完成了当前任务并领取奖励后，才会出现后续任务。</p>
+                                <p>&nbsp;</p>
+                                <p><b>9.1每日任务</b></p>
+                                <p>★任务的难度星数越高，奖励越好。</p>
+                                <p>★每日任务的免费刷新在次日4点恢复。</p>
+                            </li>
+                            <li style="display:none;">
+                                <p><b>10.成就</b></p>
+                                <p>★达到一定的成就即可以领取奖励。每个奖励只能领取一次。</p>
+                            </li>
+                            <li style="display:none;">
+                                <p><b>11.活动</b></p>
+                                <p>★每个活动结束后会出现另外一个活动。请注意把握活动持续时间。</p>
+                            </li>
+                            <li style="display:none;">
+                                <p><b>12.邮件</b></p>
+                                <p>★不能对自己发邮件，系统邮件不能回复。</p>
+                                <p>★可以通过点击战报查看参与过的作战。</p>
+                            </li>
+                            <li style="display:none;">
+                                <p><b>13.征战副本</b></p>
+                                <p>★如果无法击败该敌人时，可以尝试改变作战阵型以及提升武将装备或科技等级。</p>
+                                <p>★点击“攻略”查看其他玩家过关战报有助于过关。</p>
+                                <p>★敌人数量消灭完毕后“强攻”需要花费金币，次数和花费成正比。</p>
+                            </li>
+                            <li style="display:none;">
+                                <p><b>14.副本军团</b></p>
+                                <p>★部分副本军团的连胜次数是不同的，开战前一定要合理的配置己方人数。</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div style="width:9px; height:192px; float:left;">
+                        <div style="width:9px; height:5px; background:url(images/ui/bar_02.png) left top no-repeat"></div>
+                        <div style="width:9px; height:182px; background:url(images/ui/bar_04.png) left top repeat-y"><img src="images/ui/bar_01.png" id="help_moveBtn2" width="9" height="26" /></div>
+                        <div style="width:9px; height:5px; background:url(images/ui/bar_03.png) left bottom no-repeat"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

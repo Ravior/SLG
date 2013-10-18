@@ -1,0 +1,1 @@
+{"images":["soldier_018.png"],"frames":{"count":14,"regX":-119,"height":256,"regY":-74,"width":256},"animations": { "Standby": {"frames": [0, 2]}, "run": {"frames": [3, 8]}, "attack": {"frames": [9, 13]}}}

@@ -1,0 +1,69 @@
+<div id="container" style="background:url(images/ui/popupbg_01.gif) left top no-repeat; width:395px; height:254px;">
+    <div style="width:395px; height:23px;">
+        <div id="dlg_title" class="fc14"
+             style="float:left; font-weight:bold; width:350px; height:15px; margin-top:5px; text-align:center; ">成就积分
+        </div>
+        <div id="achievementInfo_close" class="tab_close" style="float:right; margin-right: 2px;"><img src="images/ui/tab_close.png"/></div>
+    </div>
+    <div style="width:332px; height:208px; margin-left: 28px;">
+        <div style="width:330px; height:23px;" class="content_box">
+            <div style="width:318px; height:15px; text-align:center;" class="content"><span class="fc4 ">副本进度：<span
+                    id="copy_process">0%</span>(<span>20</span>分)</span></div>
+        </div>
+        <div style="width:330px; height:85px;" class="content_box">
+            <style type="text/css">
+                .zsImg {
+                width: 47px;
+                height: 50px;
+                float: left;
+                margin: 0 6px;
+                line-height: 12px
+            }
+
+            .tz_on {
+                width: 70px;
+                height: 18px;
+                padding-left: 20px;
+                margin-bottom: 3px;
+                background: url(images/ui/ico_14.png) left center no-repeat;
+                float: left;
+                margin-left: 5px;
+                border: solid 1px #5e442d;
+            }
+
+            .tz_out {
+                width: 70px;
+                height: 18px;
+                padding-left: 20px;
+                margin-bottom: 3px;
+                background: url(images/ui/ico_13.png) left center no-repeat;
+                float: left;
+                margin-left: 5px;
+                border: solid 1px #5e442d;
+            }
+
+            .tz_01 {
+                width: 50px;
+                display: inline-block
+            }
+
+            .tz_02 {
+                width: 20px;
+                display: inline-block;
+                text-align: center;
+                font-weight: bold
+            }</style>
+            <div style="width:318px; height:77px;" class="content"><p class="fc14" style="margin-left:3px;">挑战<span
+                    style="margin-left:10px;">(次数达标即可得分)</span></p>
+                <div id="AchInfo_Num" style="width:236px; height:50px; margin:0 auto; margin-top:2px;"></div>
+            </div>
+        </div>
+        <div style="width:330px; height:114px;" class="content_box">
+            <div style="width:318px; height:106px;" class="content"><p class="fc14" style="margin-left:3px;">战术评价<span
+                    style="margin-left:10px;">(每项达标得6分)</span></p>
+
+                <div id="AchInfo_Level"></div>
+            </div>
+        </div>
+    </div>
+</div>

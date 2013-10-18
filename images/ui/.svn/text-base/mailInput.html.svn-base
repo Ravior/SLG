@@ -1,0 +1,19 @@
+<div style="width:341px; height:237px; padding:15px 27px 12px 27px; margin:7px 5px; background:url(images/ui/popupbg_01.gif) left top no-repeat; float:left; position:relative;">
+    <img id="mailSendClose" src="images/ui/tab_close.png" width="30" height="30" style="position:absolute; right:2px; top:2px;" />
+    <p style="height:22px;text-align:center; font-weight:bold;" class="fc1">发送邮件</p>
+    <div style="width:367px;height:171px;background:url(images/ui/mail_04.gif) left top no-repeat;margin-left: -13px;padding-left: 13px;padding-top: 6px;">
+        <p style="height:24px;color:#ffffff;">收信玩家：
+            <input id="sendName" type="text" style="width:230px; height:20px; border:1px solid #62472f; background:none;color:#ffffff;font-size: 10px;"
+            />
+        </p>
+        <p style="color:#ffffff;">邮件标题：
+            <input id="sendTitle" type="text" style="width:230px; height:20px; border:1px solid #62472f; background:none;color:#ffffff;font-size: 10px;"
+            />
+        </p>
+        <p style=" height:100px; margin-top:10px;">
+            <textarea id="sendContent" name="textArea" style="width:340px; height:98px; border:1px solid #62472f; background:none;color:#ffffff;font-size: 12px;">
+            </textarea>
+        </p>
+    </div>
+    <input id="sendBtn" type="button" class="btn" value="发送邮件" style="margin:0px 136px 0px 136px;" />
+</div>

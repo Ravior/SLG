@@ -1,0 +1,26 @@
+<div style="height:195px">
+    <style>
+        .zcImg_01{position:relative;width:76px;height:29px;line-height:29px;text-align:center;float:left;margin:4px 7px;background:url(images/ui/btnbg_04.png)left top no-repeat}
+    </style>
+    <div style="width:288px; height:193px; float: left;" class="content_box">
+        <div class="content" style="width:276px; height:185px;">
+            <div id="liegemans" style="width:360px; margin:0 auto"></div>
+            <img id="liegeman_flag" style="position: absolute;visibility: visible;" src="images/ui/ico_17.png" width="26" height="24" />
+            <p id="liegeman_num" class="fc1" style="text-align:center;">属臣信息（0/0）</p>
+        </div>
+    </div>
+    <div style="width:156px; height:193px; margin-left:2px; float: left;" class="content_box">
+        <div class="content" style="width:144px; height:185px;">
+            <div id="top_panel" style="width:144px; height:140px;line-height:160%;">
+                <p>名称：<span></span></p>
+                <p>上交银币：<span></span></p>
+                <p>官职：<span></span></p>
+                <p>上缴时间：<span></span></p>
+                <p>军团:<span></span></p>
+                <p>位置：<span id="lab_06"></span></p>
+            </div>
+            <input id="refresh_btn" style="float:left;margin-right:6px" class="btn" type="button" value="刷新" />
+            <input id="kick_btn" style="float:left; " class="btn" type="button" value="放弃" />
+        </div>
+    </div>
+</div>

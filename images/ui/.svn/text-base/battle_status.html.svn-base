@@ -1,0 +1,26 @@
+<div style="background:url(images/ui/status_bg.png) no-repeat; width:149px; height:84px;">
+    <style>
+        #status li*{vertical-align:middle}
+        #status img{background-color:#666;width:15px;height:15px}
+        #status div{display:inline-block;background-repeat:no-repeat;padding-right:5px;width:100px;height:13px;line-height:13px;text-align:right;border:#7f7f7f  thin solid}
+        #status canvas{display:inline}
+    </style>
+    <ul id="status" style="margin:2px 0px 0px 5px">
+        <li></li>
+        <li>
+			<span>兵力&nbsp;</span>
+            <div style="background-image:url(images/ui/hp.gif);">0/0</div>
+        </li>
+        <li>
+			<span>士气&nbsp;</span>
+            <div style="background-image:url(images/ui/mp.gif);">0</div>
+        </li>
+        <li>
+            <canvas width="15" height="15"></canvas>
+            <canvas width="15" height="15"></canvas>
+            <canvas width="15" height="15"></canvas>
+            <canvas width="15" height="15"></canvas>
+            <canvas width="15" height="15"></canvas>
+        </li>
+    </ul>
+</div>

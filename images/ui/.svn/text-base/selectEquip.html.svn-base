@@ -1,0 +1,63 @@
+<style>
+    .zbImg_03{width:47px;height:47px;margin:0 4px 4px 5px;position:relative;float:left}
+    .xuan_use{width:47px;height:47px;background:url(images/ui/ico_17.png) right bottom no-repeat;position:absolute;top:0;left:0}
+    .xuan_off{width:47px;height:47px;position:absolute;top:0;left:0}
+    .xuan_on{width:47px;height:47px;background:url(images/ui/xuan_02.png) left top no-repeat;position:absolute;left:0px;top:0px}
+    .xuan_out{width:47px;height:47px;position:absolute;left:0px;top:0px}
+</style>
+<div style="background:url(images/ui/popupbg_01.gif) left top no-repeat; width:395px; height:254px;">
+    <div style="width:395px; height:33px;">
+        <div class="fc1" style="float:left; font-weight:bold; width:330px; height:18px; margin-top:15px; text-align:center; margin-left:30px">
+            选择装备
+        </div>
+        <div id="selectEq_dlg_close" class="tab_close" style="float:right; margin-right: 2px;">
+            <img src="images/ui/tab_close.png" />
+        </div>
+    </div>
+    <div style="width:360px; height:195px; margin:10px auto;">
+        <div style="width:189px; height:193px; float:left;" class="content_box">
+            <div style="width:177px; height:185px;" class="content">
+                <div style="width:168px; height:185px; float:left;">
+                    <div id="exchangeDataStyle" style="width:154px; height:30px; margin-left:14px;">
+                        <input type="button" class="btn_red" value="同类装备" style="margin-right:18px;"  />
+                        <input type="button" class="btn_red" value="全部装备" />
+                    </div>
+                    <div style="width:168px; height:155px; overflow:hidden;">
+                        <div id="zbImg_list2"></div>
+                    </div>
+                </div>
+                <div style="width:9px; height:185px;float:left;">
+                    <div style="width:9px; height:5px; background:url(images/ui/bar_02.png) left top no-repeat">
+                    </div>
+                    <div style="width:9px; height:175px; background:url(images/ui/bar_04.png) left top repeat-y;">
+                        <img id="selectEquip_moveBtn" src="images/ui/bar_01.png" width="9" height="26" />
+                    </div>
+                    <div style="width:9px; height:5px; background:url(images/ui/bar_03.png) left bottom no-repeat">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="width:169px; height:195px; float:left;">
+            <div style="width:47px; height:47px; padding:6px; margin:10px 55px; background: url(images/ui/iconBg_05.gif) left top no-repeat;">
+                <div id="equipItemImg" style="width:47px; height:47px; background-position: left top; background-repeat: no-repeat;">
+                </div>
+            </div>
+            <div id="equipItemInfo" style=" width:164px; height:60px; line-height:15px; margin:0 auto;">
+                <div style="width:114px; height:60px; float:left;">
+                    <p>名称&nbsp;<span></span></p>
+                    <p>限制&nbsp;<span></span></p>
+                    <p>主属&nbsp;<span></span></p>
+                </div>
+                <div style="width:50px; height:60px; float:left;">
+                    <p>兵力&nbsp;<span></span></p>
+                    <p>暴击&nbsp;<span class="fc4"></span></p>
+                    <p>反击&nbsp;<span class="fc4"></span></p>
+                    <p>减伤&nbsp;<span class="fc4"></span></p>
+                </div>
+            </div>
+            <div style=" width:69px; height:30px; margin:0 auto; margin-top:20px;">
+                <input id="selectEq_btn" type="button" class="btn" value="装备" />
+            </div>
+        </div>
+    </div>
+</div>

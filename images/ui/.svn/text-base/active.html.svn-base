@@ -1,0 +1,40 @@
+<style type="text/css">
+    #active_result_table{border:1px solid#5e442d;width:358px;border-collapse:collapse;text-align:center}
+    #active_result_table td{height:22px;border-right:1px solid#5e442d}
+    #active_result_table tr:first-child{background:#523c1a;}
+    .tb_hyd{width:356px;height:22px;line-height:22px;}
+    .tb_hyd_01{width:244px;padding-left:10px;float:left;text-align:left;border-right:1px solid#5e442d}
+    .tb_hyd_02{width:50px;float:left;text-align:center;border-right:1px solid#5e442d}
+    .tb_hyd_03{width:50px;float:left;text-align:center}
+</style>
+<div id="container" style="background:url(images/ui/popupbg_01.gif) left top no-repeat; width:395px; height:254px;">
+    <div style="width:395px; height:33px;">
+        <!--<div class="tab_close_bar">-->
+        <div id="active_title" style="float:left;width:232px; height:20px; text-align:center; line-height:20px; margin-top:12px; margin-left:80px">
+            每日活跃查询
+        </div>
+        <div id="active_close" class="tab_close" style="float:right; margin-right: 2px;">
+            <img src="images/ui/tab_close.png" />
+        </div>
+        <!--</div>-->
+    </div>
+    <div style="width:360px; height:180px; margin-top:5px; margin-left:10px; float:left;">
+        <table id="active_result_table" cellpadding="0" cellspacing="0">
+            <tr>
+                <td width="255px">今日挑战</td>
+                <td width="50px">积分</td>
+                <td width="50px">完成度</td>
+            </tr>
+        </table>
+        <div id="active_container" style="width:356px; height:180px;border-bottom:1px solid #5e442d;border-left:1px solid #5e442d;border-right:1px solid #5e442d;overflow:hidden">
+            <div id="activeList" style="width:356px;"></div>
+        </div>
+    </div>
+    <div style="width:9px; height:201px; margin-top:5px; margin-left: 3px; float:left;">
+        <div style="width:9px; height:5px; background:url(images/ui/bar_02.png) left top no-repeat"></div>
+        <div id="moveBtn" style="width:9px; height:191px; background:url(images/ui/bar_04.png) left top repeat-y">
+            <img style="position:absolute" id="dg_active01" src="images/ui/bar_01.png" width="9" height="26" />
+        </div>
+        <div style="width:9px; height:5px; background:url(images/ui/bar_03.png) left bottom no-repeat"></div>
+    </div>
+</div>

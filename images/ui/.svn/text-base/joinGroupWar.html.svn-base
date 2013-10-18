@@ -1,0 +1,65 @@
+<div id="container" class="popupBox">
+    <style>
+        .repeatDiv{width:304px;height:47px;margin-bottom:8px;position:relative}
+        .jtDiv{width:296px;height:39px;padding:3px;border:solid 1px #705137; background:#150e04;position:absolute;left:0;top:0}
+        .jtDiv_01{width:296px;height:16px;margin-bottom:6px;color:#fffb88}
+        .jtDiv_02{width:296px;height:16px}
+        .p_01{width:100px;text-align:left;float:left}
+        .p_02{width:96px;text-align:center;float:left}
+        .p_03{width:100px;text-align:right;float:right}
+        .p_04{width:96px;text-align:left;float:left}
+        .p_05{width:200px;text-align:right;float:left}
+        .jtXuan_on{width:304px;height:47px;background:url(images/ui/xuan_05.png)left top no-repeat;position:absolute;left:0;top:0}
+        .jtXuan_out{width:304px;height:47px;background:url(images/ui/xuan_05.png)left top no-repeat;position:absolute;left:0;top:0;display:none}
+        .content_show{border:solid 1px#000;background:#061513;margin:1px;padding:2px 4px;width:108px;height:162px;position:absolute;left:0;top:0;text-align:center;line-height:20px}
+        .content_hide{border:solid 1px#000;background:#061513;margin:1px;padding:2px 4px;width:108px;height:162px;position:absolute;left:0;top:0;text-align:center;line-height:20px;display:none}
+        .checkBox_01{width:105px;height:27px;line-height:27px;margin-top:11px;background:#1a1e1f;border:1px solid#454233}
+        .checkBox_02{width:100px;height:18px;line-height:18px;margin-top:3px;background:#1a1e1f;border:1px solid#454233}
+    </style>
+    <div class="popup_bar">
+        <div id="dlg_title" style="float:left; background:url(images/ui/dlg_title.png) no-repeat;  width:164px; height:32px; line-height:32px; text-align:center; ">
+            军团
+        </div>
+        <!--<div class="tab_close_bar">-->
+        <div id="JoinGroup_close" id="dlg_close" class="tab_close" style="float:right; margin-right: 2px;">
+            <img src="images/ui/tab_close.png" />
+        </div>
+        <!--</div>-->
+    </div>
+    <div class="popup_content">
+        <div style="width:450px; height:170px;">
+            <div style="width:120px; height:170px; margin-right:5px; float:left;"
+                 class="content_box">
+                <div id="groupwar_info" style="width:108px; height:162px; line-height:20px;" class="content">
+                    <p>敌方军团&nbsp;<span class="fc14"></span></p>
+                    <p>敌方等级&nbsp;<span></span></p>
+                    <p>基础战功&nbsp;<span></span></p>
+                    <p>玩家人数&nbsp;<span class="fc4"></span></p>
+                    <p>掉落物品&nbsp;<span class="fc9"></span></p>
+                    <p>掉落几率&nbsp;<span></span></p>
+                </div>
+            </div>
+            <div style="width:308px; height:170px; float:left;" class="content_box">
+                <div class="content" style="width:304px; height:162px; padding:2px 0;">
+                    <div style="position:relative; float:left; width:304px; height:162px; overflow:hidden;">
+                        <div id="groupwar_list"></div>
+                    </div>
+                </div>
+            </div>
+            <div style="width:9px; height:172px; float:left;">
+                <div style="width:9px; height:5px; background:url(images/ui/bar_02.png) left top no-repeat">
+                </div>
+                <div id="moveBtn" style="width:9px; height:162px; background:url(images/ui/bar_04.png) left top repeat-y">
+                    <img id="groupWar_bar" src="images/ui/bar_01.png" width="9" height="26" />
+                </div>
+                <div style="width:9px; height:5px; background:url(images/ui/bar_03.png) left bottom no-repeat">
+                </div>
+            </div>
+        </div>
+        <div style="width:445px; height:30px; text-align: right;clear:both; padding-top:4px; padding-right:5px;">
+            <input id="groupWarAfunBtn" type="button" class="btn" value="" />
+            <input id="groupWarBfunBtn" style="margin-left:5px" type="button" class="btn" value="" />
+        </div>
+    </div>
+</div>
+</div>

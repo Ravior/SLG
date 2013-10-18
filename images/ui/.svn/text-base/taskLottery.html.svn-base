@@ -1,0 +1,19 @@
+<div id="container" style="background:url(images/ui/popupbg_01.gif) left top no-repeat; width:395px; height:254px;">
+    <div style="width:395px; height:33px;">
+        <div id="dlg_title" class="fc14" style="float:left; font-weight:bold; width:330px; height:15px; margin-top:18px; text-align:center; margin-left:30px">
+            抽选奖励
+        </div>
+        <div id="taskLottery_close" class="tab_close" style="float:right; margin-right: 2px;">
+            <img src="images/ui/tab_close.png" />
+        </div>
+    </div>
+    <div style="width:370px; height:180px; margin:10px auto; text-align:center;"
+         class="content_box fc5">
+        <div style="width:358px; height:172px;" class="content">
+            <div id="taskLotteryMore" style="width:240px; height:120px; margin:10px auto; margin-bottom: 0px;  ">
+            </div>
+            <p class="fc11">恭喜获得<span id="taskDReward"></span></p>
+            <p id="taskDlotteryPrice"></p>
+        </div>
+    </div>
+</div>

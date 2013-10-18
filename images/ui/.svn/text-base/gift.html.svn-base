@@ -1,0 +1,80 @@
+<div id="container" class="popupBox">
+    <div class="popup_bar">
+        <div style="float:left; background:url(images/ui/dlg_title.png) no-repeat; width:164px; height:32px; margin-top: 1px; text-align:center; line-height:32px; ; ">礼包</div>
+        <div id="giftClose" class="tab_close" style=" background:url(images/ui/tab_close.png) left bottom no-repeat; width: 32px;height: 32px; margin: 2px 0px 0px 284px;">
+        </div>
+    </div>
+    <div class="popup_content">
+        <style>
+            #gift_list>div{width:107px;height:31px;line-height:31px;margin-bottom:3px;text-align:center;background-position:left top;background-repeat:no-repeat;position:relative;left:0;top:0}
+            .rwCHo_Over{background-image:url(images/ui/popupbg_12.gif)}
+            .rwCHo_Out{background-image:url(images/ui/popupbg_13.gif)}
+            .gift_ico_on{width:26px;height:24px;margin-left:21px;background:url(images/ui/ico_17.png);visibility:visible;position:absolute;left:60px;top:2px}
+            .gift_ico_out{width:26px;height:24px;margin-left:21px;background:url(images/ui/ico_17.png);visibility:hidden;position:absolute;left:60px;top:2px}
+            .jtkj_01{width:59px;height:59px;background:url(images/ui/iconBg_05.gif)left top no-repeat;float:left}
+        </style>
+        <div id="itemGiftDiv" style="width:320px; height:205px; float:left;" class="content_box">
+            <div style="width:308px; height:197px;float:left;" class="content">
+                <div style="width:308px;height:20px; margin-top:4px;float:left;text-align:center;">
+                    <span id="giftTitle" class="fc10">今天可以领取的奖励</span>
+                </div>
+                <div id="giftInfoDiv" style="width:308px;height:90px; margin-top:4px;float:left;"></div>
+                <div style="width:308px;height:30px; margin-top:10px;float:left;text-align:center;">
+                    <span id="giftTipDiv" class="fc4"></span>
+                </div>
+                <div style="height:30px; line-height:40px; margin-top:3px; margin-left:110px;float:left;">
+                    <input id="getGiftBtn" type="button" class="btn" value="领  取" style="margin-left:5px;float:left;" />
+                </div>
+            </div>
+        </div>
+        <div id="keyGiftDiv" style="width:320px; height:205px;  float:left;" class="content_box">
+            <div style="width:308px; height:197px; float:left;" class="content">
+                <div style="width:308px; height:160px; margin-top:30px; margin-left:8px;float:left;background:url(images/ui/popubg_11.png) left top no-repeat;">
+                    <p id="keyGiftTipDiv" style="line-height:30px; width:150px;text-align: center;margin-top: 20px"></p>
+                    <div id="keyGiftInputDiv">
+                        <input id="giftKeyInput" type="text" value="" style="width:150px;margin-left: 22px; height:20px; border:1px solid #62472f; background:none;" />
+                        <input id="getKegGiftBtn" type="button" class="btn" value="领取" style="margin-left:10px;" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="actGiftDiv" style="width:320px; height:202px; float:left;">
+            <div style="width:320px; height:24px;" class="content_box">
+                <div style="width:308px; height:16px;" class="content">
+                    <div id="actNameDiv" style="width:90px; margin-left:10px; float:left;" class="fc4"></div>
+                    <div id="actTime" style="width:164px; float:left; text-align:right;" class="fc2"></div>
+                </div>
+            </div>
+            <div style="width:320px; height:95px; margin:2px 0px;" class="content_box">
+                <div style="width:308px; height:87px;" class="content">
+                    <p>在活动期间，每次进行副本战斗、征收、收获农田、作坊等活动将会获得积分。</p>
+                    <p>每7点积分可以获得1次领奖的机会。奖品会随机出现战功、威望、银币、粮食等。</p>
+                    <p style="text-align:center;" class="fc9">积分在每天凌晨4点会清空</p>
+                </div>
+            </div>
+            <div style="width:320px; height:80px;">
+                <div style="width:170px; height:78px; float:left;" class="content_box">
+                    <div style="width:158px; height:70px;" class="content fc1">
+                        <p>征收获得的收益增加25%</p>
+                        <p>副本战斗获得的战功增加25%</p>
+                        <p>武将突飞经验增加15%</p>
+                    </div>
+                </div>
+                <div style="width:142px; height:78px; float:right;" class="content_box">
+                    <div style="width:130px; height:70px; text-align:center;" class="content fc4">
+                        <p>当前积分&nbsp;&nbsp;<label id="actScoreDiv"></label></p>
+                        <p>领奖次数&nbsp;&nbsp;<label id="actTimesDiv"></label></p>
+                        <input id="getActBtn" type="button" class="btn" style="margin-top:4px;" value="领 取" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="width:118px; height:205px; margin-left:6px; float:left;" class="content_box">
+            <div style="width:107px; height:197px;" class="content">
+                <div style="width:107px; height:170px;float:left;overflow:hidden">
+                    <div id="gift_list"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

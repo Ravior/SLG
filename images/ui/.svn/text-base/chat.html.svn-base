@@ -1,0 +1,65 @@
+<div style=" width:480px; height:268px; background:url(images/ui/chart_bg.png) left top repeat;">
+    <style>
+        .chartLi{width:62px; height:30px;margin:0px 5px 0px 3px; float:left; text-align:center; line-height:29px; background:url(images/ui/btnbg_10.png) 0
+        -30px no-repeat;}
+        .chartLiOn{width:62px; height:30px;margin:0px 5px 0px 3px; float:left; text-align:center; line-height:29px; background:url(images/ui/btnbg_10.png) 0
+        0 no-repeat;}
+        .chartBtn{width:60px; height:29px; background:url(images/ui/btnbg_13.png) 0 0 no-repeat; border:none}
+        .g0{color:#fcf860;}
+        .g0 a{color:#fcf860; text-decoration:underline}
+        .g1{color:#37fbfe;}
+        .g1 a{color:#37fbfe; text-decoration:underline}
+        .g2{color:#dd0075;}
+        .g2 a{color:#dd0075; text-decoration:underline}
+        .g3{color:#fc8e19;}
+        .g3 a{color:#fc8e19; text-decoration:underline}
+        .g4{color:#f01918;}
+        .g4 a{color:#f01918; text-decoration:underline}
+        .g5{color:#19e17c;}
+        .g5a{color:#19e17c; text-decoration:underline}
+        .marquee {
+            white-space: nowrap;
+            text-align: left;
+            overflow:-webkit-marquee;
+            -webkit-marquee-direction:right;
+            -webkit-marquee-speed:normal;
+            -webkit-marquee-style:scroll;
+        }
+    </style>
+    <div style="width:480px; height:35px;">
+        <div style="width:420px; height:30px; margin-top:5px; float:left;">
+            <ul id="chat_tab">
+                <li class="chartLi">世界</li>
+                <li class="chartLi">势力</li>
+                <li class="chartLi">军团</li>
+                <li style="display:none"></li>
+                <li class="chartLi">私聊</li>
+                <li class="chartLi"> 系统</li>
+            </ul>
+        </div>
+        <div id="chat_close" style="width:37px; height:35px; margin-left:23px; background:url(images/ui/tab_close.png) center center no-repeat; float:left;"></div>
+    </div>
+    <div style="width:478px; height:202px;border:1px solid #503b27;">
+        <div style="width:458px;height:22px;padding:0 10px;background:url(images/ui/chatbg.png) left top repeat-x; border-bottom:1px solid #503b27; float: left;">
+            <div id="system_msgs" class="marquee"  style="height:22px; line-height: 22px;"></div>
+        </div>
+        <div style="width:458px; height:180px; position: relative; overflow:hidden;float: left;">
+            <div id="chat_msgs" style="width:458px; position: absolute; line-height:150%; word-break: break-all;"></div>
+        </div>
+        <div style="float: left; margin-left: 2px;height: 180px; width: 10px;">
+            <img id="chatBar" src="images/ui/bar_01.png" />
+        </div>
+    </div>
+    <div style="width:480px; height:29px;">
+        <input id="chat_select" type="button" class="chartBtn" value="世界" style="float: left;">
+        <input id="chat_input" type="text" maxlength="138" style="float: left;background:none; width:350px; height:27px; border:1px solid #503b27;">
+        <input id="chat_send" type="button" class="chartBtn" value="" style="float: left; margin-left:4px;background:url(images/ui/send.gif) center top no-repeat;">
+    </div>
+    <div id="chat_list" style="width:60px; height:116px; position:absolute; top:123px; display:none;">
+        <input type="button" class="chartBtn" value="世界">
+        <input type="button" class="chartBtn" value="势力">
+        <input type="button" class="chartBtn" value="军团">
+        <input style="display:none" />
+        <input type="button" class="chartBtn" value="私聊">
+    </div>
+</div>

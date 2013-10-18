@@ -1,0 +1,52 @@
+<style>
+.levy_li{ width: 130px; margin-left: 10px; float: left;}
+</style>
+<div style="width:294px; height:192px; margin-right:2px; float:left;">
+<div class="content_box" style=" float:left; margin-right:2px; float:left;">
+       <div class="content" style="height:94px; width:280px;">
+           <div id="no_evt">
+               <div style="text-align:center" class="fc11">事件</div>
+               <div style="margin-top: 20px; text-align: center; color:#FFFFFF">暂时无事件，对主城征收有几率触发</div>
+           </div>
+           <div id="content_evt" style="display:none">
+               <div style="text-align:center" class="fc11">事件</div>
+               <div id="content_qst" style="margin-top: 5px">集市上偶遇一马商，众人皆认为此人马匹质量不佳，唯有伯乐一眼相中此马乃千里良驹。</div>
+               <div style="margin-top: 10px; text-align: center" class="fc10">
+                   <span id="content_aws0" style="text-decoration:underline;">召集民众，澄清谣言</span>
+                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                   <span id="content_aws1" style="text-decoration:underline;">暗中协助，成其美事</span>
+               </div>
+           </div>
+       </div>
+</div>
+<div class="content_box" style=" float:left; margin-right:2px; margin-top:2px; float:left;">
+      <div class="content" style="height:76px; width:280px;">
+          <ul id="homeinfo_ul" class="li_list">
+              <li class="li_list_title" style="margin-bottom: 5px;">征收信息</li>
+              <li class="levy_li">民心：<span>0</span></li>
+              <li  class="levy_li">居民：<span>0</span></li>
+              <li  class="levy_li">开发：<span>0</span></li>
+              <li  class="levy_li">账房：<span>0</span></li>
+              <li  class="levy_li">征税：<span>0</span></li>
+              <li  class="levy_li">铸币：<span>0</span></li>
+          </ul>
+      </div>
+</div>
+</div>
+<div class="content_box" style="float:right;">
+    <div class="content" style="width:140px; height:182px;">
+        <div id="levyinfo" style="line-height:160%;">
+            可获银币：<span>0</span><br/>
+            征收次数：<span>00/00</span><br/>
+            强征消耗：<span class="fc1">0</span><span class="fc1">金币</span>
+        </div>
+        <div id="time_line" style="margin:5px 0px 12px 0px;">
+            冷却时间：<span id="time_info" class="fc6">00:00:00</span>
+            <input id="speedup_btn" class="speedup" type="button" />
+        </div>
+        <div style="margin-left:17px">
+            <input class="btn" type="button" value="征收" id="levy_btn" />
+            <input style="margin-top:10px;" class="btn" type="button" value="强征" id="impress_btn" />
+        </div>
+    </div>
+</div>

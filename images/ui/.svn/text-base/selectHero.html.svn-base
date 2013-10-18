@@ -1,0 +1,29 @@
+<style>
+    .selectHero_01{width:326px; height:91px; margin-bottom:6px; border:solid 1px#000; background:#705137;}
+    .selectHero_02{width:314px; height:83px; border:solid 1px#000; background:#150e04;  margin:1px;padding:2px 4px}
+    .selectHero_03{width:50px;height:19px;padding-top:48px;background-position:center top;background-repeat:no-repeat;text-align:center;margin:8px;float:left}
+    .selectHero_04{width:130px;height:51px;line-height:20px;margin:16px 2px;float:left}
+    .selectHero_05{width:110px;height:51px;line-height:20px;margin:16px 2px;float:left}
+</style>
+<div style="background:url(images/ui/popupbg_01.gif) left top no-repeat; width:395px; height:254px;">
+    <div style="width:395px; height:33px;">
+        <div class="fc1" style="float:left; font-weight:bold; width:330px; height:18px; margin-top:15px; text-align:center; margin-left:30px">选择武将</div>
+        <!--<div class="tab_close_bar">-->
+        <div id="selectHero_dlg_close" class="tab_close" style="float:right; margin-right: 2px;">
+            <img src="images/ui/tab_close.png" />
+        </div>
+        <!--</div>-->
+    </div>
+    <div style="width:347px; height:195px; margin:10px auto;">
+        <div style="width:328px; height:195px; overflow:hidden; float:left;">
+            <div id="selectHeroList"></div>
+        </div>
+        <div style="width:9px;height:195px; margin-left:10px;float:left;">
+            <div style="width:9px; height:5px; background:url(images/ui/bar_02.png) left top no-repeat"></div>
+            <div style="width:9px; height:185px; background:url(images/ui/bar_04.png) left top repeat-y">
+                <img id="selectHero_moveBtn" src="images/ui/bar_01.png" width="9" height="26" />
+            </div>
+            <div style="width:9px; height:5px; background:url(images/ui/bar_03.png) left bottom no-repeat"></div>
+        </div>
+    </div>
+</div>

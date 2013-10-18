@@ -1,0 +1,66 @@
+<div class="popupBox">
+    <style>
+        .rwCHo div{width:107px;height:31px;line-height:31px;margin-bottom:5px;text-align:center;background-position:left top;background-repeat:no-repeat}
+        .rwCHo_get{background-image:url(images/ui/popupbg_15.gif)}
+        .rwCHo_notGet{background-image:url(images/ui/popupbg_16.gif)}
+        .rwCHo_canNot{background-image:url(images/ui/popupbg_14.gif)}
+        .ach_itemDiv{width:57px;height:75px;float:left;text-align:center;background-repeat:no-repeat}
+        .jl_01{width:47px;height:25px;padding-top:24px;line-height:12px;margin:0 5px;float:left;text-align:center;background-repeat:no-repeat}
+        .jl2_ico_on{width:26px;height:24px;margin-left:110px;background:url(images/ui/ico_17.png);visibility:visible}
+        .zsImg{width:47px;height:50px;float:left;margin:0 6px;line-height:12px}
+        .tz_on{width:66px;height:18px;padding-left:20px;margin-bottom:3px;background:url(images/ui/ico_14.png) left center no-repeat;float:left;margin-left:2px;border:solid 1px #454233}
+        .tz_out{width:66px;height:18px;padding-left:20px;margin-bottom:3px;background:url(images/ui/ico_13.png) left center no-repeat;float:left;margin-left:2px;border:solid 1px #454233}
+        .tz_01{width:48px;display:inline-block}
+        .tz_02 {width:18px;display:inline-block;text-align:center;font-weight:bold}
+    </style>
+    <div class="popup_bar">
+        <div class="tab_title">成就</div>
+        <div id="achievementS_close" class="tab_close" style="float:right"><img src="images/ui/tab_close.png"/></div>
+    </div>
+    <div class="popup_content">
+        <div style="width:282px; height:208px; float:left;">
+            <div style="width:282px; height:23px;" class="content_box">
+                <div style="width:270px; height:15px; text-align:center;" class="content">
+                    <span class="fc4 ">副本进度：<span id="achievementS_process">0%</span>(<span>20</span>分)</span>
+                </div>
+            </div>
+            <div style="width:282px; height:85px;" class="content_box">
+                <div style="width:270px; height:77px;" class="content">
+                    <p class="fc14" style="margin-left:3px;">挑战<span style="margin-left:10px;">(次数达标即可得分)</span></p>
+                    <div id="achievementS_Num" style="width:236px; height:50px; margin:0 auto; margin-top:2px;"></div>
+                </div>
+            </div>
+            <div style="width:282px; height:98px;" class="content_box">
+                <div style="width:270px; height:90px;" class="content">
+                    <p class="fc14" style="margin-left:1px;">战术评价<span style="margin-left:10px;">(每项达标得6分)</span></p>
+                    <div id="achievementS_Level"></div>
+                </div>
+            </div>
+        </div>
+        <div style="width:162px; height:210px;  float:left; margin-left:4px;">
+            <div style="width:160px; height:23px;" class="content_box">
+                <div style="width:148px; height:15px; text-align:center;" class="content">
+                    <p id="achievementS_nowScore" class="fc4"><p>
+                </div>
+            </div>
+            <div style="width:160px; height:183px;" class="content_box">
+                <div style="width:148px; height:175px;float:left" class="content">
+                    <div style="width:138px; height:175px; float:left;">
+                        <div style="width:40px; height:18px;float:left;text-align:center" class="fc14">积分</div>
+                        <div style="width:98px; height:18px;float:left;text-align:center" class="fc14">奖励</div>
+                        <div style="width:138px; height:157px;float:left;overflow:hidden">
+                            <div id="achievementS_copyList" style="width:138px;"></div>
+                        </div>
+                    </div>
+                    <div style="width:9px; height:175px; float:left; background: url(images/ui/bar_04.png) repeat-y;">
+                        <div style="height:5px; background:url(images/ui/bar_02.png) no-repeat;"></div>
+                        <div style="height:165px;overflow:hidden;position:relative;">
+                            <img style="position:absolute" id="achievementS_bar" src="images/ui/bar_01.png"/>
+                        </div>
+                        <div style="height:5px; background:url(images/ui/bar_03.png) no-repeat;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

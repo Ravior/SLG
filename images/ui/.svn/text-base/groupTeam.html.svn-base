@@ -1,0 +1,50 @@
+<div style="width:443px; height:88px; margin:0 auto;">
+    <style>
+        .jtSelText{width:47px;height:47px;text-align:center;vertical-align:middle;color:white;text-shadow:1px 1px 1px#000}
+    </style>
+    <div style="width:238px; height:86px; float:left; margin-right:4px;" class="content_box">
+        <div style="width:226px; height:78px;" class="content">
+            <div style="width:47px; height:47px; padding:6px; margin:9px 6px 10px 0px;float:left; background:url(images/ui/iconBg_05.gif) left top no-repeat;">
+                <div id="groupMyGroup" class="jtSelText" width="47" height="47"></div>
+            </div>
+            <div id="groupTeamInfoDiv" style="width:161px; height:66px; padding-top:12px; float:left;">
+                <p>军团名称：<span></span></p>
+                <p>军团等级：<span></span></p>
+                <p>军团长：<span></span></p>
+            </div>
+        </div>
+    </div>
+    <div style="width:197px; height:86px; float:right;" class="content_box">
+        <div style="width:185px; height:78px;" class="content">
+            <p style="text-align: center; font-weight:bold; height:22px;" class="fc14">
+                军团公告
+                <input id="groupPubBtn" type="button" class="btn_sRed" value="修改" style="float:right;"  />
+            </p>
+            <p id="groupTeamPubDiv" style="word-break: break-all; word-wrap:break-word;"></p>
+        </div>
+    </div>
+</div>
+<div style="width:441px; height:87px; margin:2px auto;" class="content_box">
+    <div style="width:429px; height:79px; line-height:12px;" class="content">
+        <p style="height:15px; text-align:center;" class="fc14">军团成员(<span id="myGroupNum"></span>)</p>
+        <div style="width:429px; height:64px;">
+            <div id="groupTeamPagePrevBtn" style="width:27px; height:33px; margin:15px 4px 16px 0px; float:left;">
+                <img src="images/ui/mail_04.png" width="27px" height="33px;" />
+            </div>
+            <div style="position:relative; float:left; width:368px; height:64px;  overflow:hidden;">
+                <div id="groupTeamListDiv">
+                </div>
+            </div>
+            <div id="groupTeamPageNextBtn" style="width:27px; height:33px; margin:15px 0px 0px 3px; float:left;">
+                <img src="images/ui/mail_05.png" width="27px" height="33px;" />
+                <p id="groupTeamPageDiv">
+                    <span></span>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<div style="width:236px; height:33px; clear:both; margin:0 auto;">
+    <input id="groupPromotionBtn" type="button" class="btn" value="提升官职" style="float:left;" />
+    <input id="groupExitBtn" type="button" class="btn" value="退出军团" style="float:right;"  />
+</div>

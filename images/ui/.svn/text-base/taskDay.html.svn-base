@@ -1,0 +1,18 @@
+<div style="width:212px; height:193px; float:left;" class="content_box">
+    <div style="width: 200px; height: 185px; line-height: 17px;" class="content">
+        <p style="margin-top: 4px;">任务名称：<span id="taskDtitle"></span></p>
+        <p>任务难度：<span id="taskDdifficulty"></span></p>
+        <p>任务描叙：<span id="taskDcon"></span></p>
+        <p>任务进度：<span id="taskDprogess"></span></p>
+        <p class="fc4" style="margin-top: 2px;">剩余任务数：<span id="taskDnum"></span></p>
+        <p class="fc1" style=" height: 30px; line-height: 30px; margin-bottom: 5px;">花费金币：<span id="taskDfinishNum" style="width:20px;display: inline-block;"></span><input id="taskFinishBtn" type="button" class="btn" value="立即完成" style="margin-right: 51px;float: right;"  /></p>
+        <p class="f4" style=" height: 30px; line-height: 30px; ">免费次数：<span id="taskDfreeNum" style="width:20px;display: inline-block;"></span><input id="taskFreshBtn" type="button" class="btn" value="刷新任务" style="margin-right: 51px;float: right;" /></p>
+    </div>
+</div>
+</div>
+<div style="width:228px; height:193px; float: left; margin-left: 6px;" class="content_box">
+    <div style="width:216px; height:185px; line-height:16px;" class="content">
+        <p  class="fc14" style="text-align:center; font-weight:bold; margin: 4px 0px;">任务奖励</p>
+        <div id="taskDlottery" style="width:216px; "></div>
+    </div>
+</div>

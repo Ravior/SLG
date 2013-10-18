@@ -1,0 +1,56 @@
+<div id="barrackview">
+    <div style="width:448px;" class="content_box">
+        <div style="width:436px; height:70px;" class="content">
+            <p class="fc14" style="text-align:center; margin-bottom:14px;">募集义兵</p>
+            <div style="width:436px; height:55px;">
+                <div id="barracksFreeSpan" style="width:216px; height:55px; float:left;">
+                    <p>募集数量：<span></span></p>
+                    <p>募集剩余：<span></span>次</p>
+                </div>
+                <div id="baracksTime" style="width:150px; height:55px; float:left;">
+                    <p><span></span></p>
+                </div>
+                <div style="width:69px; height:55px; float:left">
+                    <input id="BarracksFreeGetBtn" type="button" class="btn" value="募集义兵" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="width:448px; height:108px; margin-top:6px;" class="content_box">
+        <div style="width:436px; height:100px;" class="content">
+            <div style="text-align:center; margin-bottom:22px;" class="fc14">招募士兵</div>
+            <div style="position:relative;">
+                <div style="position:absolute; left:0; top:0;">
+                    <input id="BarracksMinBtn" type="button" class="minBtn" value="最小" />
+                </div>
+                <div style="position:absolute; left:44px; top:0; width:22px; height:30px; ">
+                    <input id="BarracksLessBtn" type="button" class="reduceBtn" />
+                </div>
+                <div style="position:absolute; left:66px; top:0;background:url(images/ui/bar_05.gif) left center repeat-x; width:215px; height:30px; ">
+                </div>
+                <div id="BarracksBuy" style="position: absolute; left: 66px; top:0;background:url(images/ui/pro.png) left center repeat-x; width: 0px; height: 5px; padding: 12px 0 13px 0">
+                </div>
+                <div id="BarracksDragBtn" style="position:absolute; left:66px; top:0;  width:32px; height:30px;">
+                    <input type="button" class="moveBtn" />
+                </div>
+                <div style=" position:absolute; left:281px; top:0; width:22px; height:30px;">
+                    <input id="BarracksAddBtn" type="button" class="plusBtn" />
+                </div>
+                <div style="position:absolute; left:311px; top:0px;">
+                    <input id="BarracksMaxBtn" type="button" class="minBtn" value="最大" />
+                </div>
+                <div style="position:absolute; left:365px; top:0px; line-height:30px; text-align:center">
+                    <input id="BarracksGetBtn" type="button" class="btn" value="征招士兵" />
+                </div>
+            </div>
+            <div id="barracksGetSpan" style="height:15px; margin-top:57px;">
+                <div style="width:216px; float:left;">
+                    征召数量：<span></span>/<span></span>
+                </div>
+                <div style="width:220px; float:left;">
+                    消耗粮食：<span></span>/<span></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,46 @@
+<div class="popupBox">
+    <div class="popup_bar">
+        <div class="tab_title">成就</div>
+        <div id="achievement_close" class="tab_close" style=" background:url(images/ui/tab_close.png) left bottom no-repeat; width: 32px;height: 32px; margin: 2px 0px 0px 284px;">
+        </div>
+    </div>
+    <div class="popup_content">
+        <style>
+            .rwCHo div{width:107px;height:31px;line-height:31px;margin-bottom:5px;text-align:center;background-position:left top;background-repeat:no-repeat}
+            .rwCHo_Over{background-image:url(images/ui/popupbg_12.gif)}
+            .rwCHo_Out{background-image:url(images/ui/popupbg_13.gif)}
+            .ach_itemDiv{width:57px;height:75px;float:left;text-align:center;background-repeat:no-repeat}
+            .jl_01{width:47px;height:25px;padding-top:24px;line-height:12px;margin:0 5px;float:left;text-align:center;background-repeat:no-repeat}
+            .jl2_ico_on{width:26px;height:24px;margin-left:21px;background:url(images/ui/ico_17.png);visibility:visible}
+            .jl2_ico_out{width:26px;height:24px;margin-left:21px;background:url(images/ui/ico_17.png);visibility:hidden}
+        </style>
+        <div style="width:304px; height:205px; margin-left:4px; float:left;" class="content_box">
+            <div style="width:292px; height:197px;" class="content">
+                <p style="text-align:center; font-weight:bold;" class="fc14">成就奖励</p>
+                <div id="achievement_getList" style="width:285px; height:148px; margin:0 auto;">
+                </div>
+                <div style="height:30px; margin-left:10px; color:#01a010; clear: both;">目前积分：
+                    <span id="achievement_score" style="margin-right:125px;">0</span>
+                    <input id="achievementInfoBtn" type="button" class="btn" value="成就积分" />
+                </div>
+            </div>
+        </div>
+        <div style="width:128px; height:205px; margin-left:8px; float:left;" class="content_box">
+            <div style="width:116px; height:197px;" class="content">
+                <div style="width:107px; float:left;">
+                    <p style="text-align:center; font-weight:bold; margin-bottom:3px;" class="fc14">副本名称</p>
+                    <div style="width:107px; height:170px;float:left;overflow:hidden">
+                        <div id="achievement_copyList" style="width:107px;float:left;overflow:hidden;"></div>
+                    </div>
+                </div>
+                <div style="width:9px; height:195px; float:left; background: url(images/ui/bar_04.png) repeat-y;">
+                    <div style="height:5px; background:url(images/ui/bar_02.png) no-repeat;"></div>
+                    <div style="height:185px;overflow:hidden;position:relative;">
+                        <img style="position:absolute" id="p_copylist" src="images/ui/bar_01.png" />
+                    </div>
+                    <div style="height:5px; background:url(images/ui/bar_03.png) no-repeat;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

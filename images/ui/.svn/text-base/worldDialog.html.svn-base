@@ -1,0 +1,75 @@
+<div id="container" style="background:url(images/ui/popupbg_01.gif) left top no-repeat; width:395px; height:254px;">
+    <div style="width:395px; height:33px;">
+        <div id="world_dlg_title" class="fc1" style="float:left; font-weight:bold; width:330px; height:15px; margin-top:12px; text-align:center; margin-left:30px"></div>
+        <!--<div class="tab_close_bar">-->
+        <div id="world_dlg_close" class="tab_close" style="margin-right: 3px;">
+            <img src="images/ui/tab_close.png" />
+        </div>
+        <!--</div>-->
+    </div>
+    <div style="width:360px; height:208px; margin:0 auto;">
+        <div style="width:280px; height:208px; float:left;" id="cityData">
+            <table cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="142px">所属势力</td>
+                    <td width="138px"><span></span></td>
+                </tr>
+                <tr>
+                    <td width="142px">城池特色</td>
+                    <td><span></span></td>
+                </tr>
+                <tr>
+                    <td width="142px">等级上限</td>
+                    <td><span></span></td>
+                </tr>
+                <tr>
+                    <td width="142px">对战损失</td>
+                    <td><span></span>%</td>
+                </tr>
+                <tr>
+                    <td width="142px">迁入条件</td>
+                    <td><span></span></td>
+                </tr>
+                <tr>
+                    <td width="142px">城门状态</td>
+                    <td><span></span></td>
+                </tr>
+                <tr>
+                    <td width="142px">商业</td>
+                    <td><span></span> /<span></span></td>
+                </tr>
+                <tr>
+                    <td width="142px">贸易</td>
+                    <td><span></span>/<span></span></td>
+                </tr>
+                <tr>
+                    <td width="142px">矿场</td>
+                    <td><span></span> /<span></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="142px">农业</td>
+                    <td><span></span>/<span></span></td>
+                </tr>
+                <tr>
+                    <td width="142px">军事</td>
+                    <td><span></span>/<span></span>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="worldDialogInputBtn" style="width:69px; height:194px; margin-left:11px; margin-top:14px;float:right; position:relative;">
+            <input type="button" class="btn" value="进城" />
+            <input type="button" class="btn" value="迁入" />
+            <input type="button" class="btn" value="开发" />
+            <div style="width:69px; height:30px; position:absolute; top:90px; left:0px;">
+                <canvas id="developCanvas" width="69" height="30" />
+            </div>
+        </div>
+    </div>
+</div>
+<style type="text/css">
+    #cityData>table{border:1px solid#5e442d;width:280px;height:208px;border-collapse:collapse;text-align:center}
+    td{border:1px solid#5e442d}
+    #worldDialogInputBtn>input{margin-top:10px}
+</style>

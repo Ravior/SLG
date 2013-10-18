@@ -1,0 +1,61 @@
+<div style="width:450px;height:195px">
+	<style>
+		.item_lock_on{width:15px;height:23px;background:url(images/ui/lock.png) left center no-repeat;visibility:visible;position:absolute;left:30px;top:25px}
+        .item_get_on{width:21px;height:21px;background:url(images/ui/ico_19.png) left center no-repeat;visibility:visible;position:absolute;left:25px;top:25px}
+        .item_nologo{width:21px;height:21px;visibility:hidden;position:absolute;left:0px;top:0px}
+	</style>
+    <!---左边-->
+    <div style="width: 218px; height: 195px; float: left;">
+	<div style="width:203px; float:left; height:165px; margin-left:3px;overflow:hidden;position:relative;">
+		<ul id="container3"></ul>
+	</div>
+	<div style="width:9px; height:165px; margin-left: 3px; float:left; background: url(images/ui/bar_04.png) repeat-y;">
+		<div style="height:5px; background:url(images/ui/bar_02.png) no-repeat;"></div>
+		<div style="height:155px;overflow:hidden;position:relative;">
+			<img style="position:absolute" id="p_reinforcelist" src="images/ui/bar_01.png" />
+		</div>
+		<div style="height:5px; background:url(images/ui/bar_03.png) no-repeat;"></div>
+	</div>
+    <div style="width:218px;height:30px; float: left;" >
+        <ul style="width:218px; height:30px;">
+            <li style="width: 79px;  line-height:30px;float:left; ">背包位:<label  id="bagSize"></label></li>
+            <li style="width: 69px;float:left; margin-right: 1px;"><input class="btn" type="button" value="一键降级" id="degraObtainBtn"></li>
+            <li style="width: 69px;float:left;"><input class="btn" type="button" value="卖出" id="sellBtn"></li>
+        </ul>
+    </div>
+    </div>
+    <!--右边--->
+	<div id="itemAtt3" class="content_box" style="width:228px;height:195px;float:right;">
+			<div  class="content" style="height: 187px;">
+				<ul style="width:60%;float:left">
+					<li>名称：<span></span><span></span></li>
+					<li>限制：<span></span></li>
+					<li>主属：<span></span><span class="fc10"></span></li>
+					<li>强化花费：<span></span></li>
+				</ul>
+				<ul style="width:40%;float:left">
+					<li id="itemForces3">兵力：<span></span></li>
+					<li>暴击：<span class="fc4"></span></li>
+					<li>反击：<span class="fc4"></span></li>
+					<li>减伤：<span class="fc4"></span></li>
+				</ul>
+				<div style="width:100%;float:left;margin-top:2px">
+					<div id="itemGetTime" display="none"></div>
+					<div id="useGoldBtn" style="height:18px;background:url(images/ui/ico_05.gif) 0 0 no-repeat">
+						<label style="margin-left:20px" class="fc14">100%强制成功</label>
+						<label id="useGoldNum" style="visibility:hidden;"></label>
+					</div>
+				</div>
+				<ul style="margin-top:5px;">
+                    <li style="height: 30px;">
+                        <div style="width:147px; height:30px; line-height:30px;float:left;">强化成功率:<label id="strongTrend" style="margin-left: 2px;" class="fc4"></label></div>
+                        <div style="width: 69px; height:30px; float: left; "><input class="btn"  type="button" value="强化" id="strengthenBtn" /></div>
+                    </li>
+                    <li >
+                        <div id="upGradeTime" style="display: inline;"></div>
+                        <input id="upgrateSpeed_btn" class="speedup" type="button" style="visibility:hidden" />
+                    </li>
+				</ul>
+		</div>
+	</div>
+</div>
