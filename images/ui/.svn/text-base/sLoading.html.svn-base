@@ -1,9 +1,0 @@
-<div style="width:480px; height:268px;">
-    <div style="width:159px; height:35px; margin:0px auto; padding-top:115px; background:url(images/ui/loadingbg2.png) left bottom no-repeat; position:relative; ">
-        <div id="sloadbar" style="width:1px; height:35px;  background:url(images/ui/loading2.png) left top no-repeat; ">
-        </div>
-        <div id="sloadtext" style="width:144px; height:24px;padding-left:15px; padding-top:11px;color:#FFF; text-align:left; position:absolute; left:0px; top:115px;">
-            100%
-        </div>
-    </div>
-</div>

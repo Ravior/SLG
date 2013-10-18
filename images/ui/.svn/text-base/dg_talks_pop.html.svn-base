@@ -1,9 +1,0 @@
-<div id="token_container" style="background:url(images/ui/popubg_09.png) left top no-repeat; width:465px; height:165px;">
-    <img id="talksPop01" style="float:left; margin-top:20px; margin-left:40px;" />
-    <div id="talksPop02" style="float:left; margin-top:15px; margin-left:10px;">
-        <span style="font-weight: bold" class="fc1"></span>
-        <span style="display:block; width:280px; margin-top:10px;"></span>
-        <span style="display:block; margin-top:20px;"></span>
-    </div>
-    <input id="talksPop03" class="btn" type="button" value="确定" style="position: absolute; top:110px; left:350px;" />
-</div>
