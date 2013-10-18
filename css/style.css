@@ -1,0 +1,8 @@
+@charset "utf-8";
+html { -webkit-text-size-adjust: 100%; }
+body{ font-family:"Microsoft Yahei",Arial,Helvetica,sans-serif,"宋体";font-size:12px;color:#dfd9c2; margin:0; padding:0; background: #000; outline:none; cursor:default;-webkit-user-select:none;-webkit-tap-highlight-color:rgba(0,0,0,0);}
+div, h1, h2, h3, h4, p, form, label, input, textarea, img, span{margin:0; padding:0;}
+input {font-family:"Microsoft Yahei",Arial,Helvetica,sans-serif,"宋体"; color:#dfd9c2; cursor:default}
+canvas,input,button,select,textarea{outline:none;}
+
+canvas{position: absolute; left: 0; top: 0;}
