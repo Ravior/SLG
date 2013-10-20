@@ -66,13 +66,13 @@
                    this._loadNext();
                }
            }
-           else if(src.indexOf('.json')>=0){
+           else if(src.indexOf('.json')>=0||src.indexOf(".zb") >= 0){
 //               if(isXc) src="file://"+src;
                var ldr = Http.get(src);
                ldr.onData = function (data) {
                    var evt = {};
                    try {
-                       if (src.indexOf(".json") >= 0) {
+                       if (src.indexOf(".json") >= 0||src.indexOf(".zb") >= 0) {
 //                       if (src.indexOf(".json") >= 0&&!isXc) {
                            evt.target = JSON.parse(data);
                        } else {

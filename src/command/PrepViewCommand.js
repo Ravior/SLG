@@ -16,6 +16,10 @@ puremvc.define(
         /**@Override**/
         execute:function(note){
             console.log("PrepViewCommand execute!");
+            //主场景
+            this.facade.registerMediator(new app.mediator.scene.HomeMediator());
+            //统一升级面板
+            this.facade.registerMediator(new app.mediator.building.LevelUpMediator());
 
         }
     }

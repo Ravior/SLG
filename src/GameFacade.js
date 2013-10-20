@@ -17,7 +17,7 @@ puremvc.define(
                 this.initialized=true;
                 console.log("GameFacade StartUp");
                 //DataService单例类facade属性值
-                //app.proxy.DataService.getInstance().facade = this;
+                app.proxy.DataService.getInstance().facade = this;
                 this.registerCommand(app.command.CommandType.START_UP,app.command.StartUpCommand);
                 this.sendNotification(app.command.CommandType.START_UP);
             }

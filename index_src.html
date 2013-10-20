@@ -26,6 +26,14 @@
     <script src="src/Global.js"></script>
     <!-----------------GameFacade------------------->
     <script src="src/GameFacade.js"></script>
+    <!-----------------数据结构--------------------->
+    <script src="src/data/DataBase.js"></script>
+    <script src="src/data/BaseVO.js"></script>
+    <script src="src/data/TimeVO.js"></script>
+    <script src="src/data/HomeBuildingData.js"></script>
+    <script src="src/data/GameVO.js"></script>
+    <script src="src/data/BuildingVO.js"></script>
+    <script src="src/data/UserVO.js"></script>
     <!------------------MVC-------------------------->
     <!-----------------Command----------------------->
     <script src="src/command/CommandType.js"></script>
@@ -35,9 +43,31 @@
     <script src="src/command/PrepControllerCommand.js"></script>
     <script src="src/command/PrepModelCommand.js"></script>
     <script src="src/command/PrepViewCommand.js"></script>
+    <script src="src/command/LoadCommand.js"></script>
+    <script src="src/command/GoSceneCommand.js"></script>
     <script src="src/command/InitCommand.js"></script>
     <script src="src/command/ViewPorterCommand.js"></script>
     <script src="src/command/LoadDataBaseCommand.js"></script>
+    <script src="src/command/LoadInitDataCommand.js"></script>
+    <script src="src/command/LoadCacheCommand.js"></script>
+    <!----------------Proxy--------------------------->
+    <script src="src/proxy/DataService.js"></script>
+    <script src="src/proxy/BaseDataProxy.js"></script>
+    <script src="src/proxy/InitProxy.js"></script>
+    <script src="src/proxy/GameInfoProxy.js"></script>
+    <script src="src/proxy/HomeProxy.js"></script>
+    <script src="src/proxy/LevelUpProxy.js"></script>
+    <script src="src/proxy/UserInfoProxy.js"></script>
+    <script src="src/proxy/ProxyManager.js"></script>
+    <!----------------Mediator---------------------->
+    <script src="src/mediator/scene/HomeMediator.js"></script>
+    <script src="src/mediator/building/LevelUpMediator.js"></script>
+    <!----------------View-------------------------->
+    <script src="src/view/ViewUtils.js"></script>
+    <script src="src/view/base/ScrollView.js"></script>
+    <script src="src/view/base/BaseUIForm.js"></script>
+    <script src="src/view/scene/HomeSceneView.js"></script>
+    <script src="src/view/building/CommonBuildDialog.js"></script>
     <script>
         //是否调用x-canvas引擎
         var isXc=false;
@@ -45,14 +75,14 @@
         var devModel=true;
         //客户端版本
         var version="1.0.1";
-        var DEBUG_URL="data/";
+        //var DEBUG_URL="data/";
         //客户端的建立的proxy，用于调试
-        //var DEBUG_URL = "/service/slg/";
+        var DEBUG_URL = "/service/gsws/";
         window.onload=function(){
             //玩家所在服务器编号
             app.GameData.serverId =1;
             //玩家uid
-            app.GameData.uid=1;
+            app.GameData.uid=4;
             app.GameFacade.getInstance(app.GameFacade.NAME).startup();
         }
     </script>
@@ -61,5 +91,6 @@
 
 <body>
 <div id="viewporter"></div>
+<div id="oriLock">为了体验最好的游戏效果，请旋转您的手持设备</div>
 </body>
 </html>

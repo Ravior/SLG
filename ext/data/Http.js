@@ -13,8 +13,10 @@
      * @param data
      * @returns {XMLHttpRequest}
      */
-    Http.ajax=function(method,url,data){
+    Http.ajax=function(method,url,data,asyn){
         var data=data || null;
+        //异步操作
+        if(asyn == null)asyn = true;
         var request=new XMLHttpRequest();
         request.onreadystatechange=function(){
             /*
@@ -40,7 +42,7 @@
                 }
             }
         }
-        request.open(method,url,true);
+        request.open(method,url,asyn);
         if (data instanceof Object) {
             data = JSON.stringify(data);
             request.setRequestHeader('Content-Type', 'application/json');

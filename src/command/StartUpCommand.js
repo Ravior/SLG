@@ -22,8 +22,8 @@ puremvc.define
                 this.addSubCommand(app.command.PrepControllerCommand);
                 this.addSubCommand(app.command.PrepModelCommand);
                 this.addSubCommand(app.command.PrepViewCommand);
-//                //游戏初始化
-//                this.addSubCommand(app.command.InitCommand);
+                //游戏初始化
+                this.addSubCommand(app.command.InitCommand);
             }
         }
     )

@@ -8,6 +8,7 @@ window.app={
     GameData:{
         /** 服务器地址 */
         url:'data/',
+//        url:'http://112.124.30.91:8080/gsws/',
 
         /***玩家服务器组号***/
         serverId:1,
@@ -50,10 +51,11 @@ window.app={
 
     },
     getServiceURL:function(){
-        if(location.href.indexOf("http://localhost") >= 0 ||  location.href.indexOf("http://172.16.50.16/") >= 0){
+        if(location.href.indexOf("http://localhost") >= 0 ||  location.href.indexOf("http://192.168") >= 0){
             return DEBUG_URL;
         }else{
             return app.GameData.url;
         }
+//        return app.GameData.url;
     }
 }

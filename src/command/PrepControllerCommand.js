@@ -15,6 +15,10 @@ puremvc.define(
         /**@Override**/
         execute:function(note){
             console.log("PrepControllerCommand execute!");
+            this.facade.registerCommand(app.command.CommandType.LOAD, app.command.LoadCommand);
+            this.facade.registerCommand(app.command.CommandType.GO_SCENE, app.command.GoSceneCommand);
+            this.facade.registerCommand(app.command.CommandType.LEVEL_UP, app.command.LevelUpCommand);
+            this.facade.registerCommand(app.command.CommandType.GO_SCENE, app.command.GoSceneCommand);
         }
     }
 )

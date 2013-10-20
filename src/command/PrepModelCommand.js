@@ -16,6 +16,12 @@ puremvc.define(
         /**@Override**/
         execute:function(note){
             console.log("PrepModelCommand execute!");
+            this.facade.registerProxy(new app.proxy.GameInfoProxy());
+            this.facade.registerProxy(new app.proxy.InitProxy());
+            this.facade.registerProxy(new app.proxy.HomeProxy());
+            this.facade.registerProxy(new app.proxy.LevelUpProxy());
+            this.facade.registerProxy(new app.proxy.UserInfoProxy());
+
         }
     }
 )
